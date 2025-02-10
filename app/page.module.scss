@@ -1,0 +1,30 @@
+@use './variables' as *;
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: calc(100vh - 50px);
+    text-align: left;
+    flex-wrap: wrap;
+    h1 {
+        color: $secondary;
+        font-weight: bold;
+        font-size: 7rem;
+        text-shadow: 5px 5px 0px $primary;
+    }
+    h2 {
+        color: $black;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    button {
+        font-size: 2rem;
+    }
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+}
